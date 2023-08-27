@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/ai-tool-shunu/static/css/main.e6c13ad2.css",
-    "main.js": "/ai-tool-shunu/static/js/main.d9136e02.js",
+    "main.css": "/ai-tool-shunu/static/css/main.b30fd377.css",
+    "main.js": "/ai-tool-shunu/static/js/main.302fe68d.js",
     "static/js/787.772df080.chunk.js": "/ai-tool-shunu/static/js/787.772df080.chunk.js",
+    "static/media/pexels-pixabay-220201.jpg": "/ai-tool-shunu/static/media/pexels-pixabay-220201.ce71d0422c688e5290a7.jpg",
     "static/media/start.mp3": "/ai-tool-shunu/static/media/start.bf866a458e02178337ce.mp3",
     "index.html": "/ai-tool-shunu/index.html",
-    "main.e6c13ad2.css.map": "/ai-tool-shunu/static/css/main.e6c13ad2.css.map",
-    "main.d9136e02.js.map": "/ai-tool-shunu/static/js/main.d9136e02.js.map",
+    "main.b30fd377.css.map": "/ai-tool-shunu/static/css/main.b30fd377.css.map",
+    "main.302fe68d.js.map": "/ai-tool-shunu/static/js/main.302fe68d.js.map",
     "787.772df080.chunk.js.map": "/ai-tool-shunu/static/js/787.772df080.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.d9136e02.js"
+    "static/css/main.b30fd377.css",
+    "static/js/main.302fe68d.js"
   ]
 }
