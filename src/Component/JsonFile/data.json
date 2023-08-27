@@ -4,26 +4,11 @@
         "outPut": "Shubham is my first Friend, he creates a React application of Virtual Jarvis. And the we are here for you."
     },
     {
-        "command": "open youtube",
-        "outPut": "Opening YouTube in a new tab.",
-        "openUrl": "https://www.youtube.com"
-    },
-    {
-        "command": "open instagram",
-        "outPut": "Opening Instagram in a new tab.",
-        "openUrl": "https://www.instagram.com/"
-    },
-    {
-        "command": "open whatsapp",
-        "outPut": "Opening Whatsapp in a new tab.",
-        "openUrl": "https://www.whatsapp.com/"
-    },
-    {
         "command": "hello",
         "outPut": "Hello there!"
     },
     {
-        "command": "hi shunu",
+        "command": "hi jarvis",
         "outPut": "Hello there!"
     },
     {
@@ -32,7 +17,7 @@
     },
     {
         "command": "who are you",
-        "outPut": "I'm shunu, your virtual Friend."
+        "outPut": "I'm jarvis, your virtual Friend."
     },
     {
         "command": "latest news",
@@ -65,6 +50,51 @@
     {
         "command": "what's the time",
         "dynamicCommand": "time"
+    },
+    {
+        "command": "open youtube",
+        "outPut": "Opening YouTube in a new tab.",
+        "openUrl": "https://www.youtube.com"
+    },
+    {
+        "command": "opening instagram",
+        "outPut": "Opening Instagram in a new tab.",
+        "openUrl": "https://www.instagram.com/"
+    },
+    {
+        "command": "opening whatsapp",
+        "outPut": "Opening Whatsapp in a new tab.",
+        "openUrl": "https://www.whatsapp.com/"
+    },
+    {
+        "command": "play music",
+        "outPut": "playing music on spotify",
+        "openUrl": "https://open.spotify.com/"
+    },
+    {
+        "command": "opening spotify",
+        "outPut": "Opening spotify",
+        "openUrl": "https://open.spotify.com/"
+    },
+    {
+        "command": "open linkedin",
+        "outPut": "Opening linkedin in a new tab",
+        "openUrl": "https://www.linkedin.com/"
+    },
+    {
+        "command": "opening git hub",
+        "outPut": "Opening Github",
+        "openUrl": "https://github.com/"
+    },
+    {
+        "command": "opening flipkart",
+        "outPut": "Opening flipkart in a new tab",
+        "openUrl": "https://www.flipkart.com/"
+    },
+    {
+        "command": "opening amazon",
+        "outPut": "Opening amazon in a new tab",
+        "openUrl": "https://www.amazon.in/"
     },
     {
         "command": "what's the date",

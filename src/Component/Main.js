@@ -33,15 +33,10 @@ const Main = () => {
       clearInterval(dateInterval);
     };
   }, []);
-  const dynamicRef = useRef();
-  useEffect(() => {
-    dynamicRef.current = dynamicState;
-    console.log(dynamicState["date"]);
-  }, [dynamicState]);
 
   const handleChange = () => {
-    const audio = new Audio(audioFile);
-    audio.play();
+    // const audio = new Audio(audioFile);
+    // audio.play();
     const recognition = new (window.SpeechRecognition ||
       window.webkitSpeechRecognition)();
 
@@ -49,10 +44,10 @@ const Main = () => {
       const currentTranscript = event.results[0][0].transcript.toLowerCase();
       console.log(currentTranscript);
       jsonData &&
-        jsonData.map((val) => {
+        jsonData.find((val) => {
+          const voices = window.speechSynthesis.getVoices();
+          const selectedVoice = voices[0];
           if (val.command.includes(currentTranscript)) {
-            const voices = window.speechSynthesis.getVoices();
-            const selectedVoice = voices[4];
             if (val.command.includes(val.dynamicCommand)) {
               setTranscript(dynamicState[val.dynamicCommand]);
               if (selectedVoice) {
@@ -70,6 +65,7 @@ const Main = () => {
                 window.speechSynthesis.speak(voiceOutPut);
               }
               if (val.openUrl) {
+                alert();
                 window.open(val.openUrl, "_blank"); // Open URL in a new tab
               }
             }
@@ -83,12 +79,12 @@ const Main = () => {
   return (
     <>
       <button className="accessJarvis" onClick={handleChange}>
-        Jarvis Here
+        <img
+          className="clickBtnImage"
+          src={process.env.PUBLIC_URL + "/images/a.gif"}
+        />
       </button>
-      <p>Transcript: {transcript}</p>
-      <p>
-        {date}:{time}
-      </p>
+      <p>{transcript}</p>
     </>
   );
 };
