@@ -47,10 +47,7 @@
         "command": "who is the current president",
         "outPut": "Since my knowledge was last updated in September 2021, I don't have the most current information. Please check a reliable source for the latest updates."
     },
-    {
-        "command": "what's the time",
-        "dynamicCommand": "time"
-    },
+   
     {
         "command": "open youtube",
         "outPut": "Opening YouTube in a new tab.",
@@ -97,7 +94,23 @@
         "openUrl": "https://www.amazon.in/"
     },
     {
+        "command": "what's the current time",
+        "dynamicCommand": "time"
+    },
+    {
+        "command": "current time",
+        "dynamicCommand": "time"
+    },
+    {
         "command": "what's the date",
         "dynamicCommand": "date"
+    },
+    {
+        "command": "today's date",
+        "dynamicCommand": "date"
+    },
+    {
+        "command": "what's the day today",
+        "dynamicCommand": "day"
     }
 ]
